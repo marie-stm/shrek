@@ -1,0 +1,139 @@
+/* Style de base */
+body {
+    background-color: black; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+#header {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 24px 50px;
+    margin: 0 auto 30px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+}
+
+.title {
+    margin: 0;
+    font-size: 56px;
+    line-height: 1;
+}
+
+#content {
+    background-color: #006400;
+    padding: 20px;
+    color: white;
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#synopsis {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#synopsis p {
+    background-color: #9ACD32;
+    padding: 20px;
+    margin: 0;
+}
+
+.text-right {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+}
+
+.character {
+    flex: 0 0 24%;
+    margin-bottom: 20px;
+    border: 3px solid #9ACD32;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.character:hover {
+    transform: scale(1.05);
+}
+
+.character img {
+    width: 100%;
+}
+
+.character a {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    color: #9ACD32;
+    text-decoration: none;
+    background-color: #006400;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.character a:hover {
+    background-color: #9ACD32;
+    color: #006400;
+}
+
+#footer {
+    background-color: #006400;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto 0;
+    max-width: 800px;
+    color: white;
+}
+
+#content-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#content-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#content-footer li {
+    margin: 0;
+    display: inline-block;
+}
+
+#content-footer a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    padding: 10px 20px;
+    color: #006400;
+    font-size: 16px;
+    border: 2px solid #9ACD32;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#content-footer a:hover {
+    background-color: #9ACD32;
+    color: #006400;
+}

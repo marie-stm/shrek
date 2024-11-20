@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container {
+    background-color: #006400; 
+    padding: 17px;
+    border-radius: 45%;
+    border: 10px solid #9ACD32;
+    margin-bottom: 10px;
+}
+
+#image {
+    width: 134px; 
+    height: 100px; 
+    border-radius: 50%; /* Changement à 50% pour un cercle parfait */
+}
+
+.Titre {
+    background-color: #006400;
+    color: white;
+    padding: 11px;
+    font-size: 41px;
+    border-radius: 14px;
+    margin-bottom: 20px; /* Augmenté pour un espacement plus agréable */
+    text-align: center;
+}
+
+.video-container {
+    width: 79%; 
+    max-width: 786px;
+    margin: 0 auto; /* Centrer la vidéo */
+}
+
+.video-frame {
+    border: 8px solid #9ACD32;
+    border-radius: 8px; /* Arrondi amélioré pour une uniformité avec la vidéo */
+    overflow: hidden;
+}
+
+video {
+    width: 100%; 
+    border-bottom: 2px solid #9ACD32;
+    border-radius: 8px;
+}
